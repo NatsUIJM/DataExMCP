@@ -137,5 +137,8 @@ async def search_knowledge(tags: List[str], description: str, ctx: Context) -> s
     final_output = "\n\n".join([r for r in results if r])
     return final_output if final_output else "No relevant information extracted from documents."
 
-if __name__ == "__main__":
+def main():
     mcp.run(transport='stdio')
+
+if __name__ == "__main__":
+    main()

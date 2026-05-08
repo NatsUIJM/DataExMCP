@@ -9,5 +9,8 @@ dependencies = [
     "mcp",
 ]
 
+[project.scripts]
+kntagrag = "kntagrag:main"
+
 [tool.uv]
 dev-dependencies = []
