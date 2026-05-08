@@ -1,0 +1,5 @@
+.DS_Store
+history/
+final_summary.txt
+query_results.csv
+temp_*
