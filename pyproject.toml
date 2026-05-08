@@ -1,0 +1,13 @@
+[project]
+name = "kntagrag"
+version = "0.1.0"
+description = "Tag-based knowledge retrieval MCP server"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "openai",
+    "mcp",
+]
+
+[tool.uv]
+dev-dependencies = []
